@@ -173,6 +173,20 @@ footer {
 .connect {
   float: right;
   color: white;
+  padding-right: 7px;
+  padding-top: 5px;
+}
+
+.footer-nav {
+  color: white;
+  font-size: 0.7rem;
+  padding-left: 5px;
+}
+
+.copywrite {
+    font-size: 50%;
+    text-align: center;
+    padding-top: 60px;
 }
 
 /*

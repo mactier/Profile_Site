@@ -1,0 +1,47 @@
+section { padding: 20px; }
+
+.row {
+    max-width: 1140px;
+    /* margin: 0 auto; */
+}
+/* Headder */
+.top-pane {
+  float: none;
+  display: block;
+}
+/* Employment details */
+.left-pane {
+  float: left;
+  /* display: block; */
+}
+/* Personal details */
+.right-pane {
+  float: right;
+  /* display: block; */
+}
+
+
+
+.logo {
+  height: 100px;
+  width: auto;
+  float:left;
+  margin-top: 20px;
+  border-radius: 50%
+}
+
+
+/* to be removed */
+.introduction-section {
+  background-color: orange;
+}
+
+.personal-section {
+  background-color: blue;
+}
+.education-section {
+  background-color: green;
+}
+.employment-section {
+  background-color: red;
+}
