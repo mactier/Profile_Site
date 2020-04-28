@@ -1,47 +1,198 @@
-section { padding: 20px; }
-
-.row {
-    max-width: 1140px;
-    /* margin: 0 auto; */
+/* global variables */
+:root {
+  --round-corners: 20px;
 }
+/* Global set */
+* {
+  font-size: 99%;
+  line-height: 130%;
+  font-family: sans-serif;
+}
+body {
+  background-color: #e3e8e5;
+  padding-left: 100px;
+}
+section { padding: 20px; }
+h4 {
+  text-decoration: underline;
+  font-size: 150%;
+}
+li { list-style: outside; }
+hr { margin: 10px 0 ; }
+.row { max-width: 1140px; }
+
 /* Headder */
 .top-pane {
+  border-radius: var(--round-corners);
   float: none;
   display: block;
+  background-image: url("../img/banner.jpg");
 }
-/* Employment details */
-.left-pane {
-  float: left;
-  /* display: block; */
+.intro {
+  margin-left: 30px;
 }
+.intro div {
+  margin-left: 15px;
+}
+.hello { font-weight: bold;}
+.welcome1 { margin-left: 5px; }
+.welcome2 { margin-left: 5px; }
+.btn-back {
+  float: right;
+  margin-top: -74px;
+  width: 100px;
+  border-radius: 80px;
+}
+.btn-projects {
+  float: right;
+  margin-top: -49px;
+  width: 100px;
+  border-radius: 80px;
+}
+.btn-download {
+  float: right;
+  margin-top: -24px;
+  width: 100px;
+  border-radius: 80px;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Personal details */
 .right-pane {
+  border-radius: var(--round-corners);
   float: right;
-  /* display: block; */
+  display: block;
 }
-
-
-
 .logo {
   height: 100px;
   width: auto;
   float:left;
   margin-top: 20px;
-  border-radius: 50%
+  border-radius: 50%;
 }
+.contactInfo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.personal {
+    border-radius: var(--round-corners);
+    background-image: url("../img/banner.jpg");
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+.contactInfo span { font-weight: bold; }
+.logo {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.schoolYears {
+  font-weight: bold;
+  font-size: 120%;
+}
+.schoolName {
+  font-weight: bold;
+}
+.schoolGrade {
+  font-size: 90%;
+}
+.thesis a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.edu img {
+  max-width: 100px;
+  margin-bottom: 5px;
+}
+.acc {
+  background-color: #F8F8F8;
+  padding-bottom: 30px;
+  padding-top: 32px;
+}
+.ibm {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  background-color: #5672B1;
+}
+.itb {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #F8F8F8;
+}
+.kc {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #F8F8F8;
+}
+.shaw {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  background-color: #F8F8F8;
+}
+.shaw-dip { max-width: 161px;}
+
+/* Employment details */
+.left-pane {
+  border-radius: var(--round-corners);
+  float: left;
+  display: block;
+}
+.company { padding-top: 5px; }
+.emp-name {
+  font-weight: bold;
+  font-size: 120%;
+  padding-bottom: 5px;
+}
+.emp-role { padding-bottom: 10px; }
+.resp-title { padding-top: 15px; }
+.resp-list {
+  font-size: 95%;
+  padding-bottom: 10px;
+}
+.emp-date { font-weight: bold; }
+.emp-role-info { font-size: 90%; }
+.proj-details { margin: 15px; }
+.proj-name { font-weight: bold; }
+.proj-title {
+  margin-top: 10px;
+  font-size: 85%;
+}
+.proj-date {
+  font-weight: bold;
+  font-size: 90%;
+}
+.proj-info {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+.devider {
+  height: .5px;
+  width: 150px;
+  border: 1px solid black;
+  margin-left: 250px;
+}
+.duties {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.duty-role {
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
+
 
 
 /* to be removed */
 .introduction-section {
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .personal-section {
-  background-color: blue;
 }
 .education-section {
-  background-color: green;
 }
 .employment-section {
-  background-color: red;
 }
