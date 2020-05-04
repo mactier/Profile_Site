@@ -131,7 +131,8 @@ hr { margin: 10px 0 ; }
   padding-top: 4px;
   background-color: #F8F8F8;
 }
-.shaw-dip { max-width: 161px;}
+.shaw-dip { max-width: 161px; }
+.udmy-sm { max-width: 330px; }
 
 /* Employment details */
 .left-pane {
